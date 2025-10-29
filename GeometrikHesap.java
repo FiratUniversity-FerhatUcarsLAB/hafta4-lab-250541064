@@ -23,7 +23,7 @@ public class GeometriHesaplayici {
         double daireCap = 2 * r;
 
         double kureYuzeyAlan = 4 * PI * r * r;
-        double kureHacim = (4/3) * PI * r * r * r;
+        double kureHacim = (4.0/3.0) * PI * r * r * r;
 
         System.out.printf("\n%-20s: %.2f\n", "Daire Alanı", daireAlan);
         System.out.printf("%-20s: %.2f\n", "Daire Çevresi", daireCevre);
