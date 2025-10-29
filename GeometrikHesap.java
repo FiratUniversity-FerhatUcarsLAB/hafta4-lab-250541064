@@ -2,7 +2,7 @@
  * Ad Soyad: Muhammet Eren Alptekin
  * Ogrenci No: 250541064
  * Tarih: 29.10.2025
- * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
+ * Aciklama: Gorev 1 - Geometrik Hesaplama
  * 
  * Bu program yarıçapı verilen daire üzerinden, daire ve küre hesaplamaları yapacak.
  */
