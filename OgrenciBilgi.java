@@ -1,60 +1,39 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
+ * Ad Soyad: Muhammet Eren Alptekin
+ * Ogrenci No: 250541064
+ * Tarih: 29.10.2025
  * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
  * 
  * Bu program kullanicidan ogrenci bilgilerini alir ve
  * duzenli bir formatta ekrana yazdirir.
- * Diğer java dosyalarının başında da bu örnek formattaki gibi kısa bilgi giriniz
  */
 
 import java.util.Scanner;
 
-public class OgrenciBilgi {
+public class OgrenciBilgiSistemi {
     public static void main(String[] args) {
-        // Scanner objesi olusturun
-        
-        
-        // Degisken tanimlamalari
-        // String ad, soyad;
-        // int ogrenciNo, yas;
-        // double gpa;
-        
-        
-        // Kullanicidan bilgileri alin
-        System.out.println("=== OGRENCI BILGI SISTEMI ===");
-        System.out.println();
-        
-        // Ad
-        
-        
-        // Soyad
-        
-        
-        // Ogrenci No
-        
-        
-        // Yas
-        
-        
-        // GPA
-        
-        
-        // Bilgileri ekrana yazdirin
-        System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
-        
-        // COZUMUNUZU BURAYA YAZIN
-        
-        
-        
-        
-        
-        
+        Scanner scanner = new Scanner(System.in);
 
-        
-        
-        // Scanner'i kapatin (önemli pratik)
-        
+        System.out.print("Ogrenci Adi: ");
+        String ogrenciAdi = scanner.nextLine();
+
+        System.out.print("Ogrenci Soyadi: ");
+        String ogrenciSoyadi = scanner.nextLine();
+
+        System.out.print("Ogrenci Numarasi: ");
+        int ogrenciNumarasi = scanner.nextInt();
+
+        System.out.print("Ogrenci Yasi: ");
+        int ogrenciYasi = scanner.nextInt();
+
+        System.out.print("Ogrenci AGNO (GPA): ");
+        double ogrenciAgno = scanner.nextDouble();
+
+        System.out.printf("\nAd Soyad     : %s %s\n", ogrenciAdi, ogrenciSoyadi);
+        System.out.printf("Numara       : %d\n", ogrenciNumarasi);
+        System.out.printf("Yas          : %d\n", ogrenciYasi);
+        System.out.printf("AGNO (GPA)   : %.2f\n", ogrenciAgno);
+
+        scanner.close();
     }
 }
