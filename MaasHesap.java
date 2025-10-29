@@ -4,7 +4,7 @@
  * Tarih: 29.10.2025
  * Aciklama: Gorev 3 - Maaş Hesaplama
  * 
- * Bu program çalışanın bilgilerini alıp, detaylı maaş bodrosu oluşturacak.
+ * Bu program çalışanın bilgilerini alıp, detaylı maaş bordrosu oluşturacak.
  */
 
 
